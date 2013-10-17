@@ -63,7 +63,8 @@
 				 <p>My goal is to obtain employment as a Web Developer with a company that is on the cutting edge of technology. I would also like to expand my knowledge and stay ahead of the learning curve by being the first to learn about a new technology and implement it.</p>
 				 <ul id="social-Media" class="unstyled">
 					 <a class="social-Icons linkedin" href="http://www.linkedin.com/pub/cory-chambers/2/539/65a" target="_blank"><img class="img-rounded" alt="LinkedIn Profile" src="images/linkedin.jpg"/></a>
-				 </ul>
+					 <!-- This is where github link will go -->
+				</ul>
 				 <p>Web Technologies that I have used or are familar with include:</p>
 				 <ul id="web-Tech" class="unstyled">HTML5 CSS3 Javascript Bootstrap MySQL Jquery PHP</ul></p>
 			
