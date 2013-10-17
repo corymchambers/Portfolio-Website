@@ -1,0 +1,44 @@
+html body div.container div.jumbotron div.map_section div#map-canvas 
+{
+height: 100%;
+margin: 0px;
+padding: 0px
+}
+
+#panel {
+position: absolute;
+top: 5px;
+left: 50%;
+margin-left: -180px;
+z-index: 5;
+background-color: #fff;
+padding: 5px;
+border: 1px solid #999;
+}
+
+#directions-panel {
+float: left;
+margin: 15px;
+overflow: auto;
+height: 800px;
+}
+
+
+#map-canvas {
+margin-right: 400px;
+}
+
+.directions-section {
+width:300px;}
+
+@media print {
+#map-canvas {
+  height: 500px;
+  margin: 0;
+}
+
+#directions-panel {
+  float: none;
+  width: auto;
+}
+}

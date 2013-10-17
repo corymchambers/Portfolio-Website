@@ -1,0 +1,150 @@
+
+
+img.center-image {
+    margin-left: auto;
+    margin-right: auto;	
+	display:block;
+	-webkit-border-radius: 6px;
+ 	-moz-border-radius: 6px;
+ 	border-radius: 6px;
+	max-width: 100%; 
+	height: auto;
+}
+
+img.float_right_image {
+	-webkit-border-radius: 6px;
+ 	-moz-border-radius: 6px;
+ 	border-radius: 6px;
+	max-width: 100%; 
+	height: auto;
+	float: right;
+	margin-left:10px;
+}
+
+p, h1, h2, h3, h4, h5, h6 { font-family: 'Roboto Slab', sans-serif; }
+
+body {
+background: #660000; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2MDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMjUyMzgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, black 0%, #ffffff 50%, #222009 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#660000), color-stop(50%,#ffffff), color-stop(100%,#225238)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #660000 0%,#ffffff 50%,#222009 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #96C4DB 0%,#ffffff 50%,#222009 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #96C4DB 0%,#ffffff 50%,#222009 100%); /* IE10+ */
+background: linear-gradient(to bottom, #96C4DB 0%,#ffffff 50%,#222009 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#225238',GradientType=0 ); /* IE6-8 */
+}
+
+footer {
+	text-align:center;
+	color: #ffffff;
+}
+
+html body div.container div.navbar div.navbar-collapse ul.nav li a {
+    color: #222009 ;
+	font-size:large;
+}
+
+.img_and_name {
+	display:inline;
+}
+
+html body div.container div.navbar {
+    background: #ffffff;
+}
+
+html body div.container div.navbar div.img_and_name h3.CorysName {
+    color: #27563c;
+}
+
+html body div.container div.navbar {
+    padding: 10px;
+}
+
+html body div.container div.navbar div.img_and_name span.cory_title {
+    color: #27563C;
+    float: right;
+    margin-right: 50px;
+    font-family: Roboto Slab;
+}
+
+.span6 {
+	float:left;
+}
+
+.key {
+    color: #4E4C3A;
+    font-size: 200%;
+}
+
+html body div.container div.jumbotron div.row div.col-lg-4 div.res_image {
+    margin: 20px;
+}
+
+html body div.container div.jumbotron div.row div.col-lg-4 h2 {
+    text-align: center;
+}
+
+html body div.container div.jumbotron {
+    background: rgba(255,255,255,0.8);
+}
+
+html body div.container div.navbar {
+    background: rgba(255,255,255,0.8);
+}
+
+html body div.container div.navbar div.navbar-collapse ul.nav li {
+    font-family: roboto slab;
+}
+
+<!-- shopping cart styles -->
+         input[type="range"] {
+    -webkit-appearance: none;
+    background-color: rgba(153,153,153,.75);
+    height: 15px;
+	width: 200px;
+	padding-right: 5px;
+	border: solid #666 2px;
+}
+ 
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+ 
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb));
+}
+<!-- end shopping cart styles -->
+
+div.items {
+    float: left;
+    margin-right: 18px;
+}
+div.items p {
+	text-align: center;
+}
+div.lastOne {
+	margin-right: 0;	
+}
+[draggable=true] {
+	cursor: move;
+}
+#favorites {
+	height:100%;
+}
+#favorites p {
+	font-size: 36px;
+	color: #999;
+	text-align: center;
+	padding: 15px 30px;
+	border: 6px dashed #999;
+	margin-top:  1em;
+}
